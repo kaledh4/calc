@@ -46,35 +46,35 @@ def fetch_from_rss():
         {
             'title': 'نصائح لحماية مدخراتك من التضخم',
             'description': 'تعرف على أفضل الطرق للحفاظ على قيمة أموالك في ظل ارتفاع معدلات التضخم',
-            'url': '#',
+            'url': 'https://www.google.com/search?q=نصائح+لحماية+المدخرات+من+التضخم',
             'source': 'Smart Finance',
             'publishedAt': datetime.utcnow().isoformat()
         },
         {
             'title': 'كيف تحسب التكلفة الحقيقية للقروض',
             'description': 'دليل شامل لفهم تأثير التضخم على قروضك والتكاليف الخفية',
-            'url': '#',
+            'url': 'https://www.google.com/search?q=حساب+التكلفة+الحقيقية+للقروض+مع+التضخم',
             'source': 'Smart Finance',
             'publishedAt': (datetime.utcnow() - timedelta(hours=2)).isoformat()
         },
         {
             'title': 'استراتيجيات السداد المبكر للقروض',
             'description': 'متى يكون السداد المبكر مفيداً ومتى يجب تجنبه',
-            'url': '#',
+            'url': 'https://www.google.com/search?q=استراتيجيات+السداد+المبكر+للقروض',
             'source': 'Smart Finance',
             'publishedAt': (datetime.utcnow() - timedelta(hours=5)).isoformat()
         },
         {
             'title': 'فهم معدلات التضخم وتأثيرها على دخلك',
             'description': 'تحليل مفصل لكيفية تأثير التضخم على القوة الشرائية للرواتب',
-            'url': '#',
+            'url': 'https://www.google.com/search?q=تأثير+التضخم+على+الراتب',
             'source': 'Smart Finance',
             'publishedAt': (datetime.utcnow() - timedelta(hours=8)).isoformat()
         },
         {
             'title': 'أفضل الممارسات لإدارة الميزانية الشخصية',
             'description': 'خطوات عملية لتنظيم مصروفاتك وزيادة مدخراتك',
-            'url': '#',
+            'url': 'https://www.google.com/search?q=إدارة+الميزانية+الشخصية',
             'source': 'Smart Finance',
             'publishedAt': (datetime.utcnow() - timedelta(hours=12)).isoformat()
         }

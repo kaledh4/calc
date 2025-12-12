@@ -112,8 +112,8 @@ def generate_insights():
     insights_text = None
     
     if api_key:
-        # Use Qwen 2.5 (Smarter) or fallback
-        models = ["qwen/qwen-2.5-72b-instruct:free", "google/gemma-2-9b-it:free"]
+        # Use Gemini 2.0 Flash (Fast & Smart) or Llama 3.2 as fallback
+        models = ["google/gemini-2.0-flash-exp:free", "meta-llama/llama-3.2-3b-instruct:free"]
         for model in models:
             insights_text = call_openrouter(prompt, api_key, model)
             if insights_text: break
